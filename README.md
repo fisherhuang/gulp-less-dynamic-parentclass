@@ -1,9 +1,7 @@
 # gulp-less-dynamic-parentclass
-dynamic parent class name for less
-# gulp-less-dynamic-parentclass
-dynamic variables for less
+dynamic parentclass for less
 
-we can use this package to dynamic add less parentclass
+we cae use this package to dynamic add less parentclass
 
 
 var dynamicParentCls = require('gulp-less-dynamic-parentclass');
@@ -32,6 +30,3 @@ themes.forEach((name, index) => {
 </code>
 </pre>
 <p> 1.className: the parent class name you need</p>
-
-
-
