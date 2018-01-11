@@ -6,10 +6,10 @@ we cae use this package to dynamic add less parentclass
 
 var dynamicParentCls = require('gulp-less-dynamic-parentclass');
     
-var themes = ["test1", "test2"];
 
 <pre>
 <code>
+var themes = ["test1", "test2"];
 themes.forEach((name, index) => {
     gulp.task(name, () => {
         return gulp.src([
